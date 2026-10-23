@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christiane Magalhães | Links</title>
+<meta name="description" content="Social media e sites para pequenos negócios. Peça seu orçamento.">
+<meta property="og:title" content="Christiane Magalhães | Social Media & Web Design">
+<meta property="og:description" content="Do conteúdo ao site, sua marca organizada no digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#18243A; --violet:#6657C7; --aqua:#55C5BA;
+    --lilac:#F1EEFB; --snow:#F7F8FA; --white:#fff;
+    --muted:#5B6478;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:Inter,Arial,sans-serif; color:var(--navy);
+    background:var(--lilac);
+    min-height:100vh; display:flex; justify-content:center;
+    padding:48px 16px 32px; position:relative; overflow-x:hidden;
+  }
+  /* blocos + pontos do manual */
+  .deco{position:fixed;pointer-events:none;z-index:0}
+  .deco.b1{width:220px;height:220px;border-radius:48px;background:var(--violet);opacity:.10;top:-70px;right:-60px}
+  .deco.b2{width:160px;height:160px;border-radius:40px;background:var(--aqua);opacity:.16;bottom:-50px;left:-50px}
+  .deco.dots{top:36px;left:28px;display:grid;grid-template-columns:repeat(4,6px);gap:8px}
+  .deco.dots span{width:6px;height:6px;border-radius:50%;background:var(--violet);opacity:.35}
+
+  main{position:relative;z-index:1;width:100%;max-width:440px;text-align:center}
+
+  .avatar{
+    width:104px;height:104px;border-radius:50%;margin:0 auto 18px;
+    background:var(--white);display:grid;place-items:center;overflow:hidden;
+    box-shadow:0 0 0 6px var(--white),0 0 0 7px rgba(102,87,199,.25);
+  }
+  .avatar img{width:100%;height:100%;object-fit:cover}
+  .avatar .initials{font-family:Sora,sans-serif;font-weight:700;font-size:34px;color:var(--navy)}
+
+  h1{font-family:Sora,sans-serif;font-weight:700;font-size:24px;letter-spacing:-.01em}
+  .tag{
+    display:inline-block;margin-top:8px;padding:5px 14px;border-radius:999px;
+    background:var(--white);font-size:11px;font-weight:500;letter-spacing:.12em;color:var(--violet)
+  }
+  .bio{margin:16px auto 0;max-width:330px;font-size:15px;line-height:1.55;color:var(--muted)}
+  .loc{margin-top:8px;font-size:13px;color:var(--muted)}
+
+  .links{margin-top:30px;display:flex;flex-direction:column;gap:12px}
+  .link{
+    display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:999px;
+    text-decoration:none;font-weight:500;font-size:15px;text-align:left;
+    background:var(--white);color:var(--navy);
+    border:1px solid rgba(24,36,58,.08);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .link:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(24,36,58,.10)}
+  .link:focus-visible{outline:3px solid var(--violet);outline-offset:3px}
+  .link .ico{
+    flex:none;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;
+    background:var(--lilac);color:var(--violet)
+  }
+  .link .ico svg{width:20px;height:20px}
+  .link .txt{flex:1}
+  .link small{display:block;font-size:12px;font-weight:400;color:var(--muted);margin-top:2px}
+  .link .arrow{color:var(--violet);opacity:.6;font-size:18px}
+
+  .link.primary{background:var(--navy);color:var(--white);border:none;padding:18px}
+  .link.primary .ico{background:var(--aqua);color:var(--navy)}
+  .link.primary small{color:rgba(255,255,255,.7)}
+  .link.primary .arrow{color:var(--aqua);opacity:1}
+
+  .divider{display:flex;align-items:center;gap:10px;margin:8px auto 2px;width:60px}
+  .divider i{flex:1;height:2px;border-radius:2px;background:var(--violet);opacity:.3}
+  .divider b{width:6px;height:6px;border-radius:50%;background:var(--aqua)}
+
+  footer{margin-top:36px;font-size:13px;color:var(--muted)}
+  footer strong{display:block;font-family:Sora,sans-serif;font-weight:600;color:var(--navy);font-size:14px;margin-bottom:4px}
+</style>
+</head>
+<body>
+  <div class="deco b1"></div>
+  <div class="deco b2"></div>
+  <div class="deco dots"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+  <main>
+    <!-- Coloque o arquivo do seu logo ou foto como "avatar.png" na mesma pasta -->
+    <div class="avatar">
+      <img src="avatar.png" alt="Christiane Magalhães" onerror="this.parentNode.innerHTML='<span class=initials>CM</span>'">
+    </div>
+
+    <h1>Christiane Magalhães</h1>
+    <span class="tag">SOCIAL MEDIA &amp; WEB DESIGN</span>
+    <p class="bio">Estratégia, conteúdo e sites para profissionais e pequenos negócios.</p>
+    <p class="loc">Santo André/SP · atendo todo o Brasil</p>
+
+    <nav class="links">
+      <a class="link primary" href="https://wa.me/5511982783096?text=Ol%C3%A1,%20Christiane!%20Vim%20pela%20sua%20p%C3%A1gina%20de%20Social%20Media%20%26%20Web%20Design%20e%20tenho%20interesse%20em%20ter%20uma%20presen%C3%A7a%20profissional%20no%20digital%20para%20o%20meu%20neg%C3%B3cio.%20Pode%20me%20passar%20um%20or%C3%A7amento?" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12z"/><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01"/></svg></span>
+        <span class="txt">Peça seu orçamento<small>Fale comigo no WhatsApp</small></span>
+        <span class="arrow">→</span>
+      </a>
+
+      <div class="divider"><i></i><b></b><i></i></div>
+
+      <a class="link" href="https://chrismagalhaes.com.br" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/></svg></span>
+        <span class="txt">Portfólio<small>Projetos, sites e feeds</small></span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link" href="https://www.instagram.com/chrismagalhaes.digital/" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg></span>
+        <span class="txt">Instagram<small>@chrismagalhaes.digital</small></span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link" href="https://www.linkedin.com/in/christiane-magalhaes/" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V16M8 7.5v.01M12 16v-5.5M12 13a2.5 2.5 0 0 1 5 0v3"/></svg></span>
+        <span class="txt">LinkedIn<small>Trajetória profissional</small></span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link" href="https://github.com/chrismaga" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14"/></svg></span>
+        <span class="txt">GitHub<small>Código dos meus sites</small></span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link" href="mailto:contato@chrismagalhaes.com.br">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span>
+        <span class="txt">E-mail<small>Para propostas e parcerias</small></span>
+        <span class="arrow">→</span>
+      </a>
+    </nav>
+
+    <footer>
+      <strong>Do conteúdo ao site,</strong>
+      sua marca organizada no digital.
+    </footer>
+  </main>
+</body>
+</html>
