@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Paleta e tipografia do Manual de Identidade Visual v1.0 */
+@theme {
+  --color-navy: #18243A;      /* Azul profundo — base */
+  --color-violet: #6657C7;    /* Azul-violeta — destaque */
+  --color-aqua: #55C5BA;      /* Verde-água — destaque */
+  --color-lilac: #F1EEFB;     /* Lilás claro — respiro */
+  --color-snow: #F7F8FA;      /* Cinza-neve — respiro */
+  --color-ink-soft: #4A5568;
+
+  --font-display: "Sora", "Manrope", system-ui, sans-serif;
+  --font-sans: "Inter", Arial, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { @apply bg-white text-navy font-sans antialiased; }
+h1, h2, h3 { @apply font-display; }
+
+::selection { background: var(--color-aqua); color: var(--color-navy); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
