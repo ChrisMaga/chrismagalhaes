@@ -143,7 +143,7 @@ function Hero() {
             Do conteúdo ao site, sua marca <span className="text-violet">organizada</span> no digital.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft">
-            Ajudo profissionais e pequenos negócios a transformar ideias em uma presença digital clara, profissional e coerente — com estratégia, conteúdo e páginas que funcionam.
+            Ajudo profissionais e pequenos negócios a transformar ideias em uma presença digital clara, profissional e coerente com estratégia, conteúdo e páginas que funcionam.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a href="#portfolio" className="group inline-flex items-center gap-2 rounded-full bg-navy px-7 py-3.5 font-semibold text-white transition hover:bg-violet">
@@ -182,7 +182,7 @@ function Servicos() {
   return (
     <section id="servicos" className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <Titulo kicker="Serviços" sub="Você pode contratar cada frente separadamente ou tudo junto — o importante é que a sua comunicação fique coerente do post ao site.">
+        <Titulo kicker="Serviços" sub="Você pode contratar cada frente separadamente ou tudo junto. O importante é que a sua comunicação fique coerente do post ao site.">
           Como eu posso ajudar a sua marca
         </Titulo>
 
@@ -332,10 +332,10 @@ function Sobre() {
           <Titulo kicker="Sobre mim">Estratégia, criatividade e código no mesmo projeto</Titulo>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-ink-soft">
             <p>
-              Sou a Christiane, de Santo André/SP. Meu primeiro contato com HTML foi personalizando o código do meu Tumblr na adolescência — e a vontade de criar no digital nunca foi embora.
+              Sou a Christiane, de Santo André/SP. Meu primeiro contato com HTML foi personalizando o código do meu Tumblr na adolescência e a vontade de criar no digital nunca foi embora.
             </p>
             <p>
-              Formada em Administração, decidi mudar de carreira depois da pandemia e me formei em Análise e Desenvolvimento de Sistemas pelo Senac. Hoje uno essa visão de negócio com design e tecnologia para cuidar das redes sociais e dos sites de profissionais e pequenos negócios.
+              Formada em Administração, decidi mudar de carreira depois da pandemia e me formei em Análise e Desenvolvimento de Sistemas pelo Senac. Hoje uno essa visão de negócio com design e tecnologia para cuidar das redes sociais e dos sites de profissionais autônomos e pequenos negócios.
             </p>
             <p>
               Gosto de comunicação clara, próxima e sem promessas exageradas: você entende o que está sendo feito e por quê.
