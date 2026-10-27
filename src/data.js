@@ -13,7 +13,7 @@ export const WHATSAPP_MSG = 'Olá, Christiane! Vi seu site e quero conversar sob
 export const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MSG)}`
 
 export const contato = {
-  email: 'christianem.arcari@gmail.com',
+  email: 'contato@chrismagalhaes.com.br',
   instagram: { label: '@chrismagalhaes.digital', url: 'https://www.instagram.com/chrismagalhaes.digital/' },
   linkedin: { label: 'christiane-magalhaes', url: 'https://www.linkedin.com/in/christiane-magalhaes/' },
   github: { label: 'ChrisMaga', url: 'https://github.com/ChrisMaga' },
